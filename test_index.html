@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .blue-div {
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        .button-list {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .button-list.equal {
+            justify-content: space-between;
+            /* Yellow - Equal distances */
+        }
+
+        .button-list.unequal {
+            justify-content: space-around;
+            /* Orange - Unequal distances */
+        }
+
+        .button-list.unequal-red {
+            justify-content: space-evenly;
+            /* Red - Unequal spacing differently */
+        }
+
+        .button-list li {
+            margin: 0 5px;
+        }
+
+        .button-list li button {
+            padding: 10px 20px;
+            border: 1px solid black;
+            background-color: lightgreen;
+        }
+
+        .paragraph {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Div with buttons inside a list, equal distances -->
+        <div class="blue-div">
+            <ul class="button-list equal">
+                <li><button>Button 1</button></li>
+                <li><button>Button 2</button></li>
+                <li><button>Button 3</button></li>
+                <li><button>Button 4</button></li>
+            </ul>
+        </div>
+
+        <!-- Div with buttons inside a list, unequal distances (orange) -->
+        <div class="blue-div">
+            <ul class="button-list unequal">
+                <li><button>Button 1</button></li>
+                <li><button>Button 2</button></li>
+                <li><button>Button 3</button></li>
+                <li><button>Button 4</button></li>
+            </ul>
+        </div>
+
+        <!-- Div with buttons inside a list, unequal distances (red) -->
+        <div class="blue-div">
+            <ul class="button-list unequal-red">
+                <li><button>Button 1</button></li>
+                <li><button>Button 2</button></li>
+                <li><button>Button 3</button></li>
+                <li><button>Button 4</button></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Paragraph of 1000 words -->
+    <div class="paragraph">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cumque iste odit, odio vel pariatur! Sit
+            quis porro est aperiam soluta at aspernatur numquam illum blanditiis harum id accusantium delectus
+            voluptatibus nihil, possimus officiis. Earum, excepturi fugiat? Facilis sed laboriosam placeat minus
+            corporis tempora. Odit dolore corrupti hic maiores, voluptatem voluptas tenetur eaque ratione fuga!
+            Blanditiis voluptate aliquid ea natus illum nulla laboriosam asperiores, id debitis velit perferendis cumque
+            neque unde aperiam et consectetur expedita adipisci quaerat! Soluta dolor aspernatur iure odio ad, animi
+            officia quod natus tempore quis repellat, provident cupiditate error ducimus alias? Veniam, magni
+            voluptatibus repudiandae quidem fugit assumenda voluptates natus eum modi explicabo voluptatum quibusdam
+            maiores aspernatur quam aliquam cum, possimus deserunt ab sunt, itaque commodi sequi odit cupiditate.
+            Pariatur, aspernatur laboriosam. Delectus, atque eaque soluta cumque totam ab maxime sed maiores obcaecati
+            blanditiis, necessitatibus provident qui facere iste! Accusantium nesciunt provident cupiditate hic?
+            Reprehenderit nulla totam facere rem. Iure minima tenetur nihil dolorem unde recusandae natus vel,
+            reprehenderit voluptas quos nostrum ratione eveniet quia quisquam molestias dolor? Id ipsum sequi facilis
+            cum provident! Error magni magnam, quaerat nemo molestiae sed quisquam. Totam possimus sapiente quo? Numquam
+            architecto animi, autem, corporis ducimus quod optio minima labore eveniet, officia alias recusandae quia a.
+            Inventore animi reprehenderit aliquid est nulla nam. Eos laudantium ipsum officia commodi reprehenderit odio
+            sit possimus! Suscipit officia modi dolore, eum commodi ratione itaque voluptates sequi deleniti molestiae
+            assumenda corporis rem voluptatibus illum distinctio ea voluptate quasi? Repellat ea necessitatibus rem!
+            Temporibus itaque voluptatum ipsam laborum similique excepturi ipsum exercitationem asperiores blanditiis
+            earum ex hic harum dolor eos sit, saepe maiores fugit architecto voluptas esse repellendus? Perspiciatis
+            magnam voluptatibus, velit provident in voluptatem ipsam consectetur, consequatur minus accusantium est non
+            sit ut, praesentium sed? Asperiores dolorum adipisci delectus, nobis ipsam fugit assumenda sint deleniti
+            odit doloremque sapiente consequatur labore. Mollitia atque, eius assumenda nisi minus incidunt repellendus
+            distinctio eos perferendis amet tempora nemo, obcaecati voluptatum totam facilis molestiae? Provident,
+            repellendus reprehenderit aliquam ullam harum numquam culpa consequuntur dolorum fugiat quia sint mollitia
+            est magnam repudiandae reiciendis illum voluptates? Ab voluptatum at alias nesciunt porro eum aut. Tempore
+            qui obcaecati ullam, quae, ipsum tenetur iste deleniti ea delectus, deserunt vitae cumque asperiores atque.
+            Incidunt atque voluptate sed tempore dolorum et, veritatis recusandae. Cumque qui ab consectetur.
+            Consequuntur sed iure fugiat vitae impedit est rem quibusdam maxime assumenda illum numquam harum
+            asperiores, porro consectetur dolores officia libero tempora nihil facilis, non sint in ex. Iste
+            voluptatibus, animi porro accusamus optio eaque unde voluptate. Repellat recusandae magni sit in aliquid
+            porro blanditiis quidem corporis ipsa sapiente? Ut quis quasi culpa aliquam in sed aperiam laboriosam
+            quaerat quia iure, voluptatum aliquid mollitia. Aliquam animi velit quaerat. Quod sit repellat voluptatem
+            beatae ullam doloremque accusamus ipsa minima, sequi alias tempore quos maiores ea molestiae nisi esse
+            temporibus eligendi recusandae voluptatum ex corrupti consequatur, cum qui. Iusto pariatur, dicta minus
+            deserunt minima earum, aliquid eveniet quas totam ab amet laboriosam repellendus maiores rerum quis
+            voluptates. Quia commodi dolorem eligendi earum et blanditiis, aut sunt, atque dolor consequuntur officia.
+            Quod dolor, perferendis optio expedita debitis sit maxime aspernatur numquam, labore incidunt, totam culpa
+            corrupti sed possimus voluptatem quo ratione nam architecto fugit hic ad tenetur officiis voluptatibus. Quos
+            voluptatem rerum reprehenderit numquam excepturi molestiae nesciunt officiis vel a similique blanditiis,
+            necessitatibus, et tempore? Odit doloremque amet optio fuga est quaerat! Incidunt soluta eveniet consequatur
+            maxime laudantium voluptatibus reprehenderit tempora. Optio consequuntur quisquam ex necessitatibus tenetur
+            nihil architecto similique tempore iure. Et sunt nostrum suscipit expedita inventore at iure, magnam non,
+            aut praesentium incidunt? Perferendis odit perspiciatis quasi aut quam eaque, corrupti debitis consequatur,
+            ipsa ipsam atque! Quasi sint consequatur magni eveniet porro provident, qui id veritatis aliquam, quaerat
+            delectus consectetur nam. Corrupti corporis sapiente at consectetur natus distinctio incidunt dolores, odit
+            alias et ipsum excepturi neque itaque eos error. Repellat fugiat est aspernatur, id amet laborum, labore
+            impedit praesentium repellendus ullam aut magnam ut vero esse quo reprehenderit sint reiciendis libero,
+            ipsam quas ex tenetur non officia similique! Perferendis dolores natus placeat inventore doloremque
+            repellendus nostrum eveniet possimus sequi ipsa nesciunt adipisci corporis laborum veritatis, et voluptate
+            autem praesentium, at vel, aspernatur ex. Error, sequi quaerat non corporis, fuga eaque eum minima rem ex
+            nisi animi sed maiores nemo amet ut minus officiis cum voluptatem, quod perferendis reiciendis unde impedit
+            quis iste. Voluptatem aliquid praesentium consectetur perspiciatis, earum illum fugiat ex culpa. Laudantium
+            doloremque ullam aperiam voluptatem mollitia dicta excepturi, vitae at sequi itaque, molestias tempora,
+            quibusdam rerum explicabo necessitatibus nobis ratione dolor ea sunt! Ex dolores saepe odio possimus facilis
+            quia aspernatur consequatur rem? Sapiente, adipisci at tempore et unde consectetur expedita obcaecati
+            facere? Accusamus hic eveniet officiis aspernatur quisquam? Molestias facere consequatur magni architecto
+            esse asperiores nam, reprehenderit laudantium? Soluta consectetur vero illum, earum minima officiis
+            perferendis repudiandae non voluptates quaerat delectus officia dolorum facilis, rem necessitatibus beatae?
+            Sint recusandae magni libero aspernatur architecto, nemo, dolorum animi, excepturi labore reiciendis
+            delectus officia magnam quod placeat itaque voluptatem =minima ipsa ipsum at iure nulla minus? A explicabo
+            repudiandae sequi animi eius dignissimos impedit eum ipsam quidem qui aliquam repellat, nihil quia, quae
+            quasi commodi perferendis sit cum iusto minus ad cumque alias! Qui molestiae quae nemo obcaecati!
+            Repellendus molestias aliquid mollitia deleniti quas dolorum in modi hic consectetur illo asperiores id
+            nobis dolore expedita ab, facere nihil aspernatur blanditiis numquam omnis iusto maiores facilis, debitis
+            tempora? Quas dolores veniam sapiente adipisci error quo nemo beatae sequi, quae fugit repellendus
+            reprehenderit accusantium soluta vero consequuntur blanditiis vitae quod! Voluptas dolorum quod perspiciatis
+            odio saepe aspernatur inventore ratione facilis corrupti optio, sed, sint vel! Fugit doloribus at ea nemo
+            omnis est provident tenetur optio. Ratione id eveniet sequi tenetur nisi consectetur perspiciatis cum
+            molestiae perferendis unde! Incidunt deleniti illum ullam nulla adipisci aperiam error soluta exercitationem
+            quod inventore. Saepe modi iusto ducimus reprehenderit alias nam, a vel neque distinctio ab error fuga quos
+            consectetur expedita beatae? Dolor et commodi nam ipsum soluta, inventore dolores, quasi cum facere iusto
+            exercitationem maxime quaerat quam!
+        </p>
+        <!-- Continue repeating the paragraph to make it 1000 words -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+
+.Div1{
+    background-color: aqua;
+    height: 100px;
+    width: 700px;
+    margin-left: 750px;
+    position: fixed;
+    top: 0;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.Div2{
+    background-color: black;
+    height: 100px;
+    width: 700px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Div3{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div4{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div5{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div6{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div7{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Div8{
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    position: relative;
+    left: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
